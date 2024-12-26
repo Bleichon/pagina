@@ -106,7 +106,34 @@ html {
     transition: font-size 0.3s ease;
   }
   
-  
+  .color7{
+    justify-content: center;
+    align-items:  center;
+    margin-top: 80px;
+    font-size: 80%;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #440000 0% ,#7d1416 5%, #c0191f 25%, #e51e1b 50%, #c0191f 75%,#7d1416   95%, #440000 100%);  
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 10s linear infinite ;
+    transition: font-size 0.3s ease;
+  }
+  .color8{
+    justify-content: center;
+    align-items:  center;
+    margin-top: 80px;
+    font-size: 80%;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #440000 0% ,#7d1416  5%, #c0191f 25%, #e51e1b 50%, #c0191f 75%, #7d1416   95%, #440000 100%);  
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 10s linear infinite ;
+    transition: font-size 0.3s ease;
+  }
   
 
   nav {
@@ -151,19 +178,44 @@ html {
     margin: 0;
     background-color: #efefef;
   }
+
+
+  body.red {
+    margin: 0;
+    background-color: #dedbdb;
+  }
+
+
+
   .container { 
     width: 400px;
     margin: 0 auto;
   }
+
+  .containeer { 
+    width: 400px;
+    margin: 0 auto;
+  }
+  
   
   section article {
     transition: box-shadow  0.3s ease;
-    background-color: #fff;
+    background-color: #ffffff;
     margin: 1rem 0;
     border-radius: 0.5rem;
     padding: 0.25rem 0;
     
   }
+
+  section.containeer article {
+    transition: box-shadow  0.3s ease;
+    background-color: #900000;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    
+  }
+  
   
   section article:hover {
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.5);
@@ -237,6 +289,19 @@ html {
   background: #005AA7;  /* fallback for old browsers */
 background: -wnkit-linear-gradient (to right, hsla(340, 100%, 70%, 0.671), hsla(197, 74%, 54%, 0.152)), url(https://i.pinimg.com/originals/be/77/84/be77847711dfaf26e99ca867df5d1589.gif);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, hsla(340, 100%, 70%, 0.671), hsla(197, 74%, 54%, 0.152)), url(https://i.pinimg.com/originals/be/77/84/be77847711dfaf26e99ca867df5d1589.gif); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   background-size: cover;
+   background-attachment: fixed; 
+   position: relative;
+
+
+}
+.fondo3 {
+  width: 100%;
+  deight: 600px;
+  background: #000000;  /* fallback for old browsers */
+background: -wnkit-linear-gradient (to right, hsla(340, 73%, 24%, 0.671), hsla(261, 74%, 54%, 0.152)), url(https://i.pinimg.com/originals/dc/74/b9/dc74b975a50fb7b417369ddc95fb921f.gif);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(340, 93%, 23%, 0.671), hsla(315, 44%, 75%, 0.152)), url(https://i.pinimg.com/originals/dc/74/b9/dc74b975a50fb7b417369ddc95fb921f.gif); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
    background-size: cover;
    background-attachment: fixed; 

@@ -63,6 +63,12 @@ body{
 
 }
 
+
+
+/* Botones colores */
+
+
+
 .divcancion{
     background-color: #e9c46a;
     border-radius: 28px;
@@ -74,11 +80,6 @@ body{
 .cancionestext{
     color: transparent;
 }
-
-
-
-
-
 
 .divamo{
     background-color: #6ab2e9;
@@ -100,6 +101,18 @@ body{
 
 }
 .nuncatext{
+    color: transparent;
+}
+
+.divpoema{
+    background-color: #8c0e0e;
+    border-radius: 28px;
+    text-decoration: none;
+    color: transparent;
+    
+
+}
+.cancionestext{
     color: transparent;
 }
 
